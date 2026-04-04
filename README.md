@@ -1,1 +1,1 @@
-Bootloader x64.md
+/home/sifat/Documents/ob_vault/1 - Rough Notes/Bootloader x64.md
