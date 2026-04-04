@@ -21,7 +21,7 @@ Above scenario happens when only 1 drive(storage) is detected. If multiple detec
 
 
 Ok. But real systems ain't 512 byte. What happens it, that 512 byte bootloader loads a bigger bootloader and gives control to that program. One of those bigger bootloader is **GRUB** (its all making sense) It is called *chainloading*.
-![](../assets/Pasted%20image%2020260404212648.png)
+![](assets/Pasted%20image%2020260404212648.png)
 
 That bootloader finds the *kernal* and loads it. So basically.
 ```sh
@@ -85,7 +85,7 @@ There are two modes.
 
 
 so basically everycomputer that has MBR or GRUB, lives in 19th century for some moments when they boots up.
-![](../assets/Pasted%20image%2020260404213606.png)
+![](assets/Pasted%20image%2020260404213606.png)
 
 - Start in **real mode**
 - Use BIOS to:
