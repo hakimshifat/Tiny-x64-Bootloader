@@ -36,7 +36,7 @@ BIOS
 Operating System starts
 ```
 
-![](assets/Pasted%20image%2020260704113353.png)
+![](assets/Pastedimage20260704113353.png)
 I became curious and ask chatGPT some questions.
 # ⚙️ Why BIOS doesn’t load more?
 
@@ -94,7 +94,7 @@ so basically everycomputer that has MBR or GRUB, lives in 19th century for some 
     - Load kernel from disk
 - Then switch to **protected mode**
 - Start the real OS
-![](assets/Pasted%20image%2020260704124838.png)
+![](assets/Pastedimage20260704124838.png)
 
 
 Used *nasm* and *bochs* on arch linux to test them.
