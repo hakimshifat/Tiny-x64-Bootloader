@@ -73,6 +73,11 @@ set_cursor:
   ; mov dx, [bp+4] loads that packed row:col word straight into dx,
   ; since INT 10h, AH=02h expects dh and dl set that way.
 
+  popa
+  mov sp, bp
+  pop bp              
+  ret
+
 print_string:
   push bp
   mov bp, sp
